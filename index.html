@@ -1,0 +1,55 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
+        <title>Desafio</title>
+    </head>
+    <body>
+        <h3 id="titulo">Desafio do "alert()" ao passar mouse por cima</h1>
+        <form>
+            <div id="comAlerta" class="areas" onmousemove="alerta()">
+                <label>Tem que aprecer alerta!!</label>
+            </div>
+            <div id="semAlerta" class="areas">
+                <label>Não pode aprecer alerta!!</label>
+            </div>
+        </form>
+    </body>
+    <script>
+        function alerta(e){
+            alert("Deu Certo!!");
+        }
+    </script>
+</html>
+<style>
+    form {
+        margin: 0 auto;
+        width: 400px;
+        padding: 1em;
+        border: 1px solid #CCC;
+        border-radius: 1em;
+    }
+
+    .areas {
+        margin: 0 auto;
+        padding: 1em;
+        border: 1px solid #CCC;
+        border-radius: 1em;
+    }
+
+    #semAlerta {
+        margin-top: 5%;
+        background-color: #FF6347;
+    }
+
+    #comAlerta{
+        background-color: #90EE90;
+    }
+
+    #titulo {
+        margin: 0 auto;
+        width: 400px;
+        padding: 1em;
+    }
+
+</style>
