@@ -1,0 +1,192 @@
+body {
+    margin: 0px;
+    font-family: "roboto";
+    font-family: 22px;
+}
+header {
+    height: 80px;
+    width: 100%;
+    background: #d81f27;
+}
+header button {
+    height: 50px;
+    border: none;
+    display: inline-block;
+    background: none;
+    color: white;
+}
+header .header13 {
+    width: 960px;
+    height: 80px;
+    margin: 0 auto;
+}
+header img {
+    width: 100px;
+    margin-top: 20px;
+    float: left;
+    padding-left: 50px;
+}
+header .lines {
+    flex-direction: row;
+    display: flex;
+    margin-top: 20px;
+    padding-right: 140px;
+    float: right;
+}
+
+.backgroundTop {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.top {
+    width: 100%;
+    height: 380px;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+.backgroundTop {
+    background: url("../img/paisagem.jpg") repeat-x center center;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.boxOldWoman {
+    position: absolute;
+    padding-right: 550px;
+    bottom: 0;
+    padding-bottom: 80px;
+}
+
+.oldWoman {
+    width: 150px;
+}
+
+.boxOldMan {
+    position: absolute;
+    padding-left: 600px;
+    bottom: 0;
+    padding-bottom: 81px;
+}
+
+.oldMan {
+    width: 210px;
+}
+
+.boxTableGame {
+    display: inline-block;
+    width: 450px;
+    position: absolute;
+    bottom: 0;
+}
+
+.tableGame {
+    width: 450px;
+}
+@font-face {
+    font-family: mongolian-baiti;
+    src: url(mongolian-baiti.ttf);
+}
+
+.titleTop {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    color: #facd3d;
+    -webkit-text-fill-color: #facd3d; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: mongolian-baiti;
+    font-size: 50px;
+    text-align: center;
+}
+.lulu {
+    display: flex;
+    justify-content: center;
+}
+.imagens {
+    width: 150px;
+    height: 200px;
+    /*padding: 90px;*/
+}
+.helo {
+    font-family: mongolian-baiti;
+    font-size: 30px;
+    text-align: center;
+    color: dimgrey;
+    float: center;
+}
+
+span {
+    text-align: center;
+    padding: 100px;
+    color: black;
+}
+.like {
+    background-color: firebrick;
+    padding: 40px;
+    height: 150px;
+}
+.nick {
+    text-align: center;
+}
+.hi {
+    font-family: mongolian-baiti;
+    font-size: 30px;
+    text-align: center;
+    color: dimgray;
+}
+.boby {
+    display: flex;
+    justify-content: center;
+}
+.photos {
+    width: 150px;
+    height: 200px;
+    padding: 90px;
+}
+footer {
+    font-size: 20px;
+    margin-top: 100px;
+    text-align: center;
+    background: red;
+    height: 250px;
+    color: cornsilk;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+.redes li a {
+    position: relative;
+    bottom: 12px;
+}
+.redes {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+#rodape {
+    position: relative;
+    bottom: 12px;
+}
+.redes li {
+    display: inline;
+    padding: 30px;
+}
+.termos {
+    display: inline;
+    padding: 30px;
+}
+
+.termos li {
+    display: inline;
+    padding: 30px;
+}
